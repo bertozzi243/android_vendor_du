@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
 endif
 endif
 
+
 # Don't export PS1 in /system/etc/mkshrc.
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/etc/mkshrc:system/etc/mkshrc
@@ -58,6 +59,12 @@ PRODUCT_COPY_FILES += \
     vendor/extras/build/tools/backuptool.sh:install/bin/backuptool.sh \
     vendor/extras/build/tools/backuptool.functions:install/bin/backuptool.functions \
     vendor/extras/build/tools/50-du.sh:system/addon.d/50-du.sh
+
+# Lawnchair
+PRODUCT_PACKAGES += Lawnchair
+PRODUCT_COPY_FILES += \
+    vendor/du/prebuilt/common/etc/permissions/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml \
+    vendor/du/prebuilt/common/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
 
 # Weather client
 PRODUCT_COPY_FILES += \
