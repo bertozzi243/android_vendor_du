@@ -93,4 +93,11 @@
 
     <!-- Lawnstep -->
     <string name="config_recentsComponentName" translatable="false">ch.deletescape.lawnchair.ci/com.android.quickstep.RecentsActivity</string>
+
+    <!-- Google Sans font usage -->
+    <string name="config_headlineFontFamily">google-sans</string>
+    <string name="config_headlineFontFamilyLight">google-sans</string>
+    <string name="config_headlineFontFeatureSettings">ss03</string>
+    <string name="config_headlineFontFamilyMedium">google-sans-medium</string>
+
 </resources>
