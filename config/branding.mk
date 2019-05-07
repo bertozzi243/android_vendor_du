@@ -2,7 +2,7 @@
 DU_BASE_VERSION = v13.1
 
 ifndef DU_BUILD_TYPE
-    DU_BUILD_TYPE := UNOFFICIAL
+    DU_BUILD_TYPE := DIRTY-DEEDS
 endif
 
 # Only include DU-Updater for official, weeklies, and rc builds
